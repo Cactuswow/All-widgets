@@ -51,4 +51,10 @@ const List<MenuItem> appMenuItems = [
     link: "/infinity",
     icon: Icons.loop,
   ),
+  MenuItem(
+    title: "ma ma",
+    subtitle: "suming",
+    link: "/counter",
+    icon: Icons.countertops,
+  ),
 ];

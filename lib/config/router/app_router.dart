@@ -39,5 +39,10 @@ final GoRouter appRouter = GoRouter(
       name: "infinity",
       builder: (context, state) => const InfinityScreen(),
     ),
+    GoRoute(
+      path: "/counter",
+      name: "counter",
+      builder: (context, state) => const CounterScreen(),
+    ),
   ],
 );
